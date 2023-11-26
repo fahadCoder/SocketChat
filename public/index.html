@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center"> Chat Application</h1>
+    <h2 style="text-align:center"> Raja Fahad Israr Ahmed</h2>
+
+    <br/><br/>
+    <div id="chat">
+        <ul id="messages"></ul>
+        <form id="chat-form">
+            <input id="'message" type="text" placeholder="Enter your message" />
+            <input type="file" accept="image/*" />
+            <Button>Send</Button>
+        </form>
+    </div>
+
+</body>
+    <script src="/socket.io/socket.io.js"> </script> <!-- socket client library -->
+   <script src="script.js"></script>
+</html>
